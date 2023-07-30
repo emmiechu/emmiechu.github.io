@@ -1,0 +1,21 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "git.ignoreLimitWarning": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.scss.d.ts": true,
+    "public/": true,
+    ".cache/": true
+  },
+  "cSpell.words": [
+    "hackioca",
+    "linkedin",
+    "nulogy",
+    "vrulez"
+  ]
+}

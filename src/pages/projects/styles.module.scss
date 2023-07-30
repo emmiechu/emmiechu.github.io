@@ -1,0 +1,85 @@
+@import "../../styles/_colors.scss";
+@import "../../styles/_fonts.scss";
+
+h1 {
+  font-weight: 600;
+  margin: 16px 0 16px 0;
+}
+h2.others{
+  padding-bottom: 24px;
+}
+
+.term {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 20px !important;
+  text-transform: none;
+}
+
+.topicRight {
+  font-family: $body-font;
+  font-weight: 600;
+  color: $chestnut-color;
+}
+.image-title {
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+
+.text-highlight {
+  box-shadow: $highlight-color 0px -0.6em inset;
+  font-weight: 600;
+}
+
+.pin {
+  border-left: 10px solid $coral-color;
+  padding-left: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.cream-bg {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 16px 20px;
+  border: 3px solid $almost-black-color;
+  color: $almost-black-color;
+}
+
+.green {
+  color: #589f75;
+}
+.red {
+  color: #d7737d;
+}
+
+.asterisk {
+  width: 32px;
+  @media (min-width: 576px) {
+    width: 40px;
+  }
+  @media (min-width: 992px) {
+    width: 48px;
+  }
+  @media (min-width: 1440px) {
+    width: 56px;
+  }
+}
+
+.learning {
+  background-color: $highlight-color;
+  font-weight: 600;
+}
+
+figure {
+  padding-top: 16px;
+}
+
+.figure-no-margin-bottom {
+  figure {
+    margin-bottom: 0;
+  }
+}

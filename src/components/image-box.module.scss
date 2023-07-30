@@ -1,0 +1,16 @@
+@import "../styles/_colors.scss";
+@import "../styles/_fonts.scss";
+
+html {
+  .image-box {
+    cursor: pointer;
+  }
+
+  .modal {
+    max-width: 90%;
+  }
+
+  .img-caption {
+    color: $body-text-color;
+  }
+}

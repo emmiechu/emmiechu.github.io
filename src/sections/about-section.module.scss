@@ -1,0 +1,59 @@
+@import "../styles/_colors.scss";
+@import "../styles/_fonts.scss";
+
+.section {
+  background-color: $beige-color;
+  // background: url('../../static/images/noise.png') $green-color;
+  // background-size: cover;
+  padding: 160px 0;
+  @media (min-width: 768px) {
+    padding: 180px 0;
+  }
+  @media (min-width: 1400px) {
+    padding: 200px 0;
+  }
+}
+
+.about-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: $almost-black-color;
+
+  @media (min-width: 576px) {
+    font-size: 40px;
+  }
+  @media (min-width: 992px) {
+    font-size: 48px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 56px;
+  }
+}
+
+.asterisk {
+  width: 32px;
+  @media (min-width: 576px) {
+    width: 40px;
+  }
+  @media (min-width: 992px) {
+    width: 48px;
+  }
+  @media (min-width: 1440px) {
+    width: 56px;
+  }
+}
+
+.about-para {
+  color: $almost-black-color;
+  font-family: $heading-font;
+  font-size: 20px;
+  @media (min-width: 576px) {
+    font-size: 28px;
+  }
+  @media (min-width: 992px) {
+    font-size: 32px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 36px;
+  }
+}

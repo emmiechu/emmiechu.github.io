@@ -1,0 +1,9 @@
+@import "../styles/_colors.scss";
+@import "../styles/_projects.scss";
+
+.project-body{
+  padding-top: 16px ;
+  @media (min-width: 992px) {
+    padding: 24px; 
+  }
+}

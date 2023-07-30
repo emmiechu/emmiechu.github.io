@@ -1,0 +1,1 @@
+export const RESUME_FILE_NAME = "/emmie-resume2023.pdf";
