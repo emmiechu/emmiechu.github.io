@@ -7,6 +7,7 @@
     "@types/sha.js": "^2.4.0",
     "bootstrap": "^5.2.3",
     "gatsby": "^5.8.0",
+    "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-react-helmet": "^6.8.0",
@@ -30,7 +31,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.tsx src/**/*.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b public",
     "predevelop": "rimraf public .cache",
     "prebuild": "rimraf public .cache",
     "predeploy": "rimraf public .cache"
