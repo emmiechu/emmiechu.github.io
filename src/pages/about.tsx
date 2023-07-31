@@ -130,7 +130,7 @@ export default class AboutPage extends React.Component<AboutPageProps, {}> {
                       <td>
                         <span className={styles.experienceName}>LeanTaaS</span>
                         ,{" "}
-                        <span className={styles.experienceType}>Full-time</span>
+                        <span className={styles.experienceType}>Product Designer</span>
                       </td>
                       <td className={styles.experiencePeriod}>
                         Oct 2021 - Present
@@ -142,7 +142,7 @@ export default class AboutPage extends React.Component<AboutPageProps, {}> {
                           Jitta Wealth
                         </span>
                         ,{" "}
-                        <span className={styles.experienceType}>Full-time</span>
+                        <span className={styles.experienceType}>Product Designer</span>
                       </td>
                       <td className={styles.experiencePeriod}>
                         Jun 2020 - May 2021
@@ -150,21 +150,9 @@ export default class AboutPage extends React.Component<AboutPageProps, {}> {
                     </tr>
                     <tr>
                       <td className={styles.experienceName}>
-                        <span className={styles.experienceName}>
-                          Hack the North
-                        </span>
-                        ,{" "}
-                        <span className={styles.experienceType}>Volunteer</span>
-                      </td>
-                      <td className={styles.experiencePeriod}>
-                        Mar 2019 – Feb 2020
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className={styles.experienceName}>
                         <span className={styles.experienceName}>Autodesk</span>,{" "}
                         <span className={styles.experienceType}>
-                          Internship
+                          Product Design Intern
                         </span>
                       </td>
                       <td className={styles.experiencePeriod}>
@@ -173,9 +161,9 @@ export default class AboutPage extends React.Component<AboutPageProps, {}> {
                     </tr>
                     <tr>
                       <td className={styles.experienceName}>
-                        <span className={styles.experienceName}>PlanGrid</span>,{" "}
+                        <span className={styles.experienceName}>PlanGrid (An Autodesk Company)</span>,{" "}
                         <span className={styles.experienceType}>
-                          Internship
+                          Product Design Intern
                         </span>
                       </td>
                       <td className={styles.experiencePeriod}>
